@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="screen.css">
+  <title>Document</title>
+  <script src="preload.js"></script>
+</head>
+
+<body>
+<div id="zodiacPickerBody">
+  <div id="titleAndHelp">
+    <h1><span class="highlight">SUPER SMASH ZODIAC</span></h1>
+    <div id="helpButtonDiv">
+      <button id="helpButton">
+        <img id="HelpImage" src="Char_Images/Help.png" alt="Help">
+      </button>
+    </div>
+  </div>
+
+  <div id="welcome">
+    <p><span class="highlight">Welcome to the SSBU Zodiac Chooser! Input your birthdate and find out which of the
+        original 12 Smash fighters you share a special connection with!</span></p>
+  </div>
+
+  
+  <div id="credits">
+    <p><span class="highlight">All characters, images, and sounds belong to Nintendo.</span></p>
+  </div>
+
+  <div id="dateAndSubmit">
+    <div id="datePicker">
+      <form action="">
+        <input type="date" id="zBirthday" required>
+      </form>
+    </div>
+    <button id="zSubmit">Submit your date here!</button>
+  </div>
+
+  <div id="banner-wrapper">
+    <div id="banners">
+      <button id="Mario" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Mario Banner.png" alt="Mario">
+      </button>
+      <button id="Donkey Kong" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Donkey Kong Banner.png" alt="Donkey Kong">
+      </button>
+      <button id="Link" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Link Banner.png" alt="Link">
+      </button>
+      <button id="Samus" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Samus Banner.png" alt="Samus">
+      </button>
+      <button id="Yoshi" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Yoshi Banner.png" alt="Yoshi">
+      </button>
+      <button id="Kirby" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Kirby Banner.png" alt="Kirby">
+      </button>
+      <button id="Fox" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Fox Banner.png" alt="Fox">
+      </button>
+      <button id="Pikachu" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Pikachu Banner.png" alt="Pikachu">
+      </button>
+      <button id="Luigi" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Luigi Banner.png" alt="Luigi">
+      </button>
+      <button id="Ness" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Ness Banner.png" alt="Ness">
+      </button>
+      <button id="Captain Falcon" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Captain Falcon Banner.png" alt="Captain Falcon">
+      </button>
+      <button id="Jigglypuff" class="charButton">
+        <img class="zodButtons" src="Char_Banners/Jigglypuff Banner.png" alt="Jigglypuff">
+      </button>
+    </div>
+  </div>
+
+    <br style="clear: both;">
+
+    <div id="DisplayArea" class="hideMe">
+      <h2 id="zName">ZOD Name</h2>
+      <img id="zImage" src="Char_Images/Random.png" alt="Unselected">
+      <h4 id="zDateRange">Start - End</h4>
+      <p id="zDescription">Select your character!</p>
+      <button id="closeButton">Close</button>
+    </div>
+
+    <div id="ErrorArea" class="hideMe">
+      <h3>Invalid Date</h3>
+      <img id="zImage" src="Char_Images/Random.png" alt="Question Mark">
+      <p>Please enter a valid date or else you can't get your sign!</p>
+      <button id="errorCloseButton">Close</button>
+    </div>
+
+    <div id="HelpArea" class="hideMe">
+      <h3>Help</h3>
+      <img id="zImage" src="Char_Images/Random.png" alt="Question Mark">
+      <p>Welcome to the Super Smash Zodiac Picker! This website will assign you a zodiac sign based on the original 12 fighters from the Super Smash Brothers series of video games! All you have to do is input your date into the date-picker, and click on the submit button, and you’ll be given your sign based on your birthdate. Feel free to check out what the other signs say as well, you just have to click on them! Have fun!</p>
+      <button id="helpCloseButton">Close</button>
+    </div>
+  </div>
+
+
+    <audio id="MarioSnd" src="snd/Mario.wav">
+      No Mario sound
+    </audio>
+
+    <audio id="Donkey KongSnd" src="snd/Donkey Kong.wav">
+      No Donkey Kong sound
+    </audio>
+
+    <audio id="LinkSnd" src="snd/Link.wav">
+      No Link sound
+    </audio>
+
+    <audio id="SamusSnd" src="snd/Samus.wav">
+      No Samus sound
+    </audio>
+
+    <audio id="YoshiSnd" src="snd/Yoshi.wav">
+      No Yoshi sound
+    </audio>
+
+    <audio id="KirbySnd" src="snd/Kirby.wav">
+      No Kirby sound
+    </audio>
+
+    <audio id="FoxSnd" src="snd/Fox.wav">
+      No Fox sound
+    </audio>
+
+    <audio id="KirbySnd" src="snd/Kirby.wav">
+      No Kirby sound
+    </audio>
+
+    <audio id="PikachuSnd" src="snd/Pikachu.wav">
+      No Pikachu sound
+    </audio>
+
+    <audio id="LuigiSnd" src="snd/Luigi.wav">
+      No Luigi sound
+    </audio>
+
+    <audio id="NessSnd" src="snd/Ness.wav">
+      No Ness sound
+    </audio>
+
+    <audio id="Captain FalconSnd" src="snd/Captain Falcon.wav">
+      No Captain Falcon sound
+    </audio>
+
+    <audio id="JigglypuffSnd" src="snd/Jigglypuff.wav">
+      No Jigglypuff sound
+    </audio>
+
+    <script src="postload.js"></script>
+</body>
+
+</html>

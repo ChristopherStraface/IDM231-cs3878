@@ -1,0 +1,233 @@
+/* ========================= */
+/* 1. RESET & GLOBAL STYLES  */
+/* ========================= */
+body {
+    font-size: 16px;
+    background-color: #FFE7CD;
+    color: #3C2B15;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Image Animation */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('Char_Images/Mural.jpg');
+    background-repeat: repeat-x;
+    background-size: 300% 100%;
+    opacity: 0.65;
+    animation: moveBackground 140s linear infinite;
+    z-index: -1;
+}
+
+/* ========================= */
+/* 2. TYPOGRAPHY & TEXT STYLES */
+/* ========================= */
+
+/* Main header */
+h1 {
+    color: #000;
+    font-size: 32px;
+    font-family: 'SmashFont', sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+/* Sub headers */
+h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+/* Paragraphs */
+p {
+    color: #000;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin: 1em 0;
+    padding: 1em;
+}
+
+/* Special Text Formatting */
+span {
+    display: inline-block;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 5px;
+}
+
+/* ========================= */
+/* 3. LAYOUT & STRUCTURE     */
+/* ========================= */
+
+/* Display areas */
+#DisplayArea, #HelpArea, #ErrorArea {
+    border: 10px solid #000;
+    padding: 10px;
+    width: 900px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-image: url('Char_Images/Background.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Containers */
+#banner-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#banners {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleAndHelp, #dateAndSubmit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    gap: 20px;
+}
+
+#dateAndSubmit {
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+/* Welcome/Credits */
+
+#welcome {
+    margin-bottom: -30px;
+}
+
+#credits{
+    font-size: 12px;
+}
+
+/* ========================= */
+/* 4. IMAGES                 */
+/* ========================= */
+#zImage {
+    width: 250px;
+    height: 300px;
+}
+
+#HelpImage {
+    width: 20px;
+    height: 20px;
+}
+
+/* Resize other images */
+div img {
+    width: 300px;
+    height: 100px;
+}
+
+/* ========================= */
+/* 5. FORMS & INPUTS         */
+/* ========================= */
+#zBirthday {
+    appearance: none;
+    background: linear-gradient(to right, #9650c8, #a37cd6);
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+}
+
+/* ========================= */
+/* 6. BUTTONS                */
+/* ========================= */
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* General button styles */
+button:active {
+    transform: translate(2px, 2px); /* Old-school button press effect */
+}
+
+#helpButton, #closeButton, #errorCloseButton, #helpCloseButton {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 5px 13px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+#zSubmit {
+    background: linear-gradient(to right, #9650c8, #a37cd6);
+    padding: 5px 17px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+/* ========================= */
+/* 7. UTILITIES & EFFECTS    */
+/* ========================= */
+.hideMe {
+    visibility: hidden;
+}
+
+.disableMe {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* ========================= */
+/* 8. ANIMATIONS & KEYFRAMES */
+/* ========================= */
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+/* ========================= */
+/* 9. CUSTOM FONTS           */
+/* ========================= */
+@font-face {
+    font-family: 'SmashFont';
+    src: url('Fonts/super_smash.ttf');
+}
