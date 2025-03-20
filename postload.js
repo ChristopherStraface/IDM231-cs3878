@@ -88,7 +88,7 @@ function displayZodInfo(whichOne) {
     zNameObj.innerHTML = whichOne;
     switch (whichOne) {
         case 'Mario':
-            zImageObj.src = 'Char_Images/Mario.jpg';
+            zImageObj.src = 'Char_Images/Mario.png';
             zDateRangeObj.innerHTML = 'December 22nd - January 19th';
             zDescription.innerHTML = "It’s Super Mario! A hero to all, and someone who can always be counted on to brighten everyone’s faces with a smile. No matter when the time calls for it, he’ll always come through to help those in need, for no other reason than because he can. There’s no one more reliable than good ol’ Mario!";
             removeHideMe(displayAreaObj, 250);
@@ -101,7 +101,7 @@ function displayZodInfo(whichOne) {
             zImageObj.src = 'Char_Images/Donkey Kong.png';
             zDateRangeObj.innerHTML = 'January 20th - February 18th';
             zDescription.innerHTML = 'DK, the king of swing! A fun-loving ape who loves to throw down with a party, he can quickly switch to a fit of rage and throw hands with anyone who threatens those he loves. He’s the last thing- primate or person- that you ever want to upset, because despite his loose exterior, there’s no one who will fight harder to protect his family and those he holds dear.';
-            removeHideMe(displayAreaObj, 250);
+            removeHideMe(displayAreaObj, 500);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
             }
