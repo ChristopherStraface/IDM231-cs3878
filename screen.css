@@ -112,7 +112,16 @@ span {
     align-items: center;
 }
 
-#titleAndHelp, #dateAndSubmit {
+#titleAndHelp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -40px;
+    margin-left: 55px;
+    gap: 20px;
+}
+
+#dateAndSubmit {
     display: flex;
     justify-content: center;
     align-items: center;
