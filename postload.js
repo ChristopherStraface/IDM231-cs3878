@@ -90,7 +90,7 @@ function displayZodInfo(whichOne) {
         case 'Mario':
             zImageObj.src = 'Char_Images/Mario.png';
             zDateRangeObj.innerHTML = 'December 22nd - January 19th';
-            zDescription.innerHTML = "It’s Super Mario! A hero to all, and someone who can always be counted on to brighten everyone’s faces with a smile. No matter when the time calls for it, he’ll always come through to help those in need, for no other reason than because he can. There’s no one more reliable than good ol’ Mario!";
+            zDescription.innerHTML = "It’s Super Mario! A hero to all, and someone who can always be counted on to brighten everyone’s faces with a smile. No matter when the time calls for it, he’ll always come through to help those in need, for no other reason than because he can. There’s no one more reliable than good ol’ Super Mario!";
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -109,7 +109,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Link': zImageObj.src = 'Char_Images/Link.png';
             zDateRangeObj.innerHTML = 'Febuary 19th - March 20th';
-            zDescription.innerHTML = 'Link, the hero of time! With a cool, serious look almost never leaving his face, Link is well known for his lack of expression- both physically and verbally. But with his calm demeanor comes courage unlike any other, one willing to stand his ground in the face of any adversity and come out unscathed. To those who know of Link’s heroic courage, he is always someone who can be relied on when he’s needed.';
+            zDescription.innerHTML = 'Link, the hero of time! With a cool, serious look almost never leaving his face, Link is well known for his lack of expression- both physically and verbally. But with his calm demeanor comes courage unlike any other, one willing to stand his ground in the face of any adversity and come out unscathed, making him someone who can be always be relied on when he’s needed.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -119,7 +119,7 @@ function displayZodInfo(whichOne) {
         case 'Samus':
             zImageObj.src = 'Char_Images/Samus.png';
             zDateRangeObj.innerHTML = 'March 21st - April 19th';
-            zDescription.innerHTML = 'Samus, the galactic bounty hunter! A woman who travels across the stars to take down galactic threats all by herself, Samus can stand up to anything that’s in her way. Her adventures are never easy, and she’s endured plenty of hardship throughout her life, but she never lets her limits define her and somehow always finds a way to survive, even in the roughest of times- Even while exploring dangerous, unexplored planets.';
+            zDescription.innerHTML = 'Samus, the galactic bounty hunter! A woman who travels across the stars to take down galactic threats all by herself, Samus can stand up to anything that’s in her way. Her adventures are never easy, but she never lets her limits define her and somehow always finds a way to survive, even in the roughest of times- Even while exploring dangerous, unexplored planets.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -128,7 +128,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Yoshi': zImageObj.src = 'Char_Images/Yoshi.png';
             zDateRangeObj.innerHTML = 'April 20th - May 20th';
-            zDescription.innerHTML = 'Yoshi, the lovable green dinosaur! A true companion for life, Yoshi is a loyal dinosaur who never turns his back on his friends or fellow dinos. He’s a pure, innocent soul whose loyalty will have him follow someone to the end of the earth- Even if they lead him off a cliff! But to Yoshi, that’s just part of life, but a few bad apples won’t spoil his unending devotion to those he holds dear.';
+            zDescription.innerHTML = 'Yoshi, the lovable green dinosaur! A true companion for life, Yoshi is a loyal dinosaur who never turns his back on his friends or fellow dinos. He’s a pure, innocent soul whose loyalty will have him follow someone to the end of the earth- Even if they lead him off a cliff! But to Yoshi, a few bad apples won’t spoil his unending devotion to his friends.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -137,7 +137,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Kirby': zImageObj.src = 'Char_Images/Kirby.png';
             zDateRangeObj.innerHTML = 'May 21st - June 21st';
-            zDescription.innerHTML = 'Kirby, the pink puffball! Despite the innocent appearance, Kirby is actually the biggest menace, but that’s a side of him you never want to see! Both of his main hobbies include eating or sleeping, and when something gets in the way of his peaceful lifestyle…It’s never pretty, to say the least. Kirby is never someone to be messed with, but he never deserves being messed with either, because all he wants to do is live his life in uninterrupted bliss.';
+            zDescription.innerHTML = 'Kirby, the pink puffball! Despite the innocent appearance, Kirby is actually the biggest menace, but that’s a side of him you never want to see! Kirby is always chill, but when something gets in the way of his peaceful lifestyle, it’s never pretty, to say the least. But they had it coming, because all Kirby wants to do is live his life in uninterrupted bliss.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -146,7 +146,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Fox': zImageObj.src = 'Char_Images/Fox.png';
             zDateRangeObj.innerHTML = 'June 22nd - July 22nd';
-            zDescription.innerHTML = 'Fox, the space pilot! Fox leads a group of space marines through constant danger for the sake of defeating evil. Fox knows what has to be done, and he’ll never back down from what he believes in, and that conviction allows the people around him to trust in his judgement and lead them to a better tomorrow. Fox is the epitome of a true leader, a title he’s more than earned his right to.';
+            zDescription.innerHTML = 'Fox, the space pilot! Fox leads a group of space marines through constant danger for the sake of defeating evil. Fox knows what has to be done, and he’ll never back down from what he believes in, and that conviction allows the people around him to trust in his judgement and lead them to a better tomorrow. Fox is the epitome of a true leader.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -156,7 +156,7 @@ function displayZodInfo(whichOne) {
         case 'Pikachu':
             zImageObj.src = 'Char_Images/Pikachu.png';
             zDateRangeObj.innerHTML = 'July 23rd - August 22nd';
-            zDescription.innerHTML = 'Pikachu, the perfect Pokémon partner! An adorable companion, while it takes a while to warm up to its trainer, it’s hard to find a more loyal friend than a Pikachu. Despite how it may sometimes seem, since Pikachu tends to send an electric shock through its friends sometimes, Pikachu is a fierce and devoted friend who will stick with its trainer through thick and thin.';
+            zDescription.innerHTML = 'Pikachu, the perfect Pokémon partner! An adorable companion, while it takes a while to warm up to its trainer, it’s hard to find a more loyal friend than a Pikachu. Despite a few electric shocks at its friends every now and then, Pikachu is a fierce and devoted companion who will stick with its trainer through thick and thin.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -165,7 +165,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Luigi': zImageObj.src = 'Char_Images/Luigi.png';
             zDateRangeObj.innerHTML = 'August 23rd - September 22nd';
-            zDescription.innerHTML = 'Luigi, the green missile! While he may appear weak and cowardly, Luigi is someone who never gives up in the face of adversity. Even if it looks like he’d be the first one to run away, Luigi always stands his ground and never gives up, proving his worth in unique ways only he can. His friends and family know that while his first instinct may be to run from danger, he can always be counted on to help those who are in need.';
+            zDescription.innerHTML = 'Luigi, the green missile! While he may appear weak and cowardly, Luigi is someone who never gives up in the face of adversity. Despite his cowardly nature, Luigi always stands his ground and never gives up, proving his worth in unique ways only he can. While his first instinct is to run from danger, he can always be counted on to help those who are in need.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -174,7 +174,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Ness': zImageObj.src = 'Char_Images/Ness.png';
             zDateRangeObj.innerHTML = 'September 23rd - October 23rd';
-            zDescription.innerHTML = 'Ness, the magical child! Ness has a talent for magic, from creating pillars of fire to sparks of electricity, but despite his great power, he remains an innocent and helpful child. Fueled greatly by his emotions and interests, Ness can turn any of his feelings into a greater power if it means he can protect his friends. He has serious courage for someone who probably still likes to eat crayons.'; displayAreaObj.classList.remove('hideMe');
+            zDescription.innerHTML = 'Ness, the magical child! Ness has a talent for magic, from creating pillars of fire to sparks of electricity, and much more! Fueled greatly by his emotions and interests, Ness can turn any of his feelings into a greater power if it means he can protect his friends. He has serious courage for someone who probably still likes to eat crayons.'; 
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -184,7 +184,7 @@ function displayZodInfo(whichOne) {
         case 'Captain Falcon':
             zImageObj.src = 'Char_Images/Captain Falcon.png';
             zDateRangeObj.innerHTML = 'October 24th - November 21st';
-            zDescription.innerHTML = 'Captain Falcon, the king of the racetrack! A bounty hunter and long-time pro racer across different planets, Captain Falcon lives with a true need for speed, always chasing his next rush of adrenaline. C.F. has met many different people across his career, from the best kinds to the absolute worst, but he’s always stayed true to his morals and ethics- Even when there are people who try to break him down, he’ll always cross the fiish line at the end and leave them in the dust.';
+            zDescription.innerHTML = 'Captain Falcon, the king of the racetrack! A bounty hunter and long-time pro racer across different planets, Captain Falcon lives with a true need for speed, always chasing his next rush of adrenaline. Even when there are people who try to break him down, he’ll always cross the finish line at the end and leave them in the dust.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
@@ -193,7 +193,7 @@ function displayZodInfo(whichOne) {
             break;
         case 'Jigglypuff': zImageObj.src = 'Char_Images/Jigglypuff.png';
             zDateRangeObj.innerHTML = 'November 22nd - December 21st';
-            zDescription.innerHTML = 'Jigglypuff, the balloon Pokémon! A cute face, Jigglypuff loves to be the center of attention and turns that innocent demeanor into a mean one when she’s ignored. But Jigglypuff’s idea of being “mean” is pulling innocent pranks- If you consider having marker drawn on your face innocent, at least. Still, Jigglypuff is widely loved for her endearing personality, just make sure you always listen to her when she wants to be heard.';
+            zDescription.innerHTML = 'Jigglypuff, the balloon Pokémon! A cute face, Jigglypuff loves to be the center of attention and turns that innocent demeanor into a mean one when she’s ignored. But Jigglypuff’s idea of being “mean” is pulling innocent pranks. Still, Jigglypuff is widely loved for her endearing personality, just make sure you always listen to her when she wants to be heard.';
             removeHideMe(displayAreaObj, 250);
             for (let i = 0; i < charButtonsArray.length; i++) {
                 charButtonsArray[i].classList.replace("charButton", "disableMe");
